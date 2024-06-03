@@ -1,6 +1,4 @@
-.App {
-  text-align: center;
-}
+
 
 .App-logo {
   height: 40vmin;
@@ -35,4 +33,121 @@
   to {
     transform: rotate(360deg);
   }
+}
+.todo-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.taskinput{
+  width: 540px;
+  height: 30px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.option-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+.language-container{
+  display: flex;
+  flex-direction: row;
+}
+.language{
+  border: 1px solid black;
+  margin: 10px;
+  padding: 2px;
+  border-radius: 5px;
+  cursor: pointer;
+
+}
+.select-language{
+  border: 1px solid black;
+  margin: 10px;
+  padding: 2px;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: lightseagreen;
+  color: white;
+
+}
+.selectoptions{
+  height: 30px;
+  width: 70px;
+  border-radius: 5px;
+  margin-right: 10px;
+  margin-left: 50px;
+}
+
+.taskbutton{
+  height: 30px;
+  width: 120px;
+  background-color: lightseagreen;
+  border-radius: 5px;
+  color: white;
+  border: transparent;
+}
+.task-main-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.task-container{
+  display: flex;
+  flex-direction: row;
+}
+
+.tasktab{
+  width: 400px;
+}
+
+.task-card{
+  width: 90%;
+  border: 1px solid black;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: grab;
+}
+.task-card:active{
+  opacity: 0.7;
+  border: 1px solid #111;
+}
+.task-tab-content{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.lang-container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.lang{
+  margin: 2px;
+  border: transparent;
+  border-radius: 5px ;
+  padding: 5px;
+}
+.html{
+  background-color: lightblue;
+}
+.css{
+  background-color: lightpink;
+}
+.javascript{
+  background-color: yellow;
+}
+.react{
+  background-color: lightcoral;
+}
+.delete-button{
+  background: transparent;
+  border: transparent;
+  cursor: pointer;
 }
